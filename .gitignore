@@ -37,8 +37,7 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Locust results
-backend/locust/results/
+# Locust results (keep CSV results in repo for documentation)
 
 # Temp
 uploads/

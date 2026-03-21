@@ -2,11 +2,11 @@
 
 An end-to-end ML pipeline that classifies emotions in emergency call audio recordings. The system detects 4 emotional states — **angry**, **drunk**, **painful**, and **stressful** — to help emergency dispatch systems prioritize responses.
 
-## Demo
+## Links
 
-- **Video Demo:** [YouTube Link](TODO)
-- **Live API:** [https://emotion-api.onrender.com](https://emotion-api.onrender.com)
-- **Live Frontend:** [https://emotion-frontend.onrender.com](https://emotion-frontend.onrender.com)
+- **Video Demo:** [Watch on YouTube](https://youtu.be/uigCoNhKF-A)
+- **Live API:** [https://emotion-api-1341.onrender.com](https://emotion-api-1341.onrender.com)
+- **Live Frontend:** [https://emocall.vercel.app](https://emocall.vercel.app)
 
 ---
 
@@ -50,7 +50,7 @@ This project builds a complete ML pipeline — from raw audio to a deployed web 
 | Frontend | Next.js 14, shadcn/ui, Tailwind CSS, TanStack Query, Motion |
 | Containerization | Docker + Docker Compose |
 | Load Testing | Locust |
-| Deployment | Render |
+| Deployment | Render (backend) + Vercel (frontend) |
 
 ---
 
@@ -307,28 +307,75 @@ docker-compose up --build
 
 ## Deployment
 
-Deployed on **Render** using `render.yaml`:
-- **Backend (emotion-api):** Docker web service running FastAPI on port 8000
-- **Frontend (emotion-frontend):** Docker web service running Next.js on port 3000
+- **Backend:** Deployed on [Render](https://render.com) as a Docker web service (FastAPI on port 8000)
+  - URL: https://emotion-api-1341.onrender.com
+  - Runtime: Docker (Python 3.13 + TensorFlow 2.20)
+- **Frontend:** Deployed on [Vercel](https://vercel.com) as a Next.js app
+  - URL: https://emocall.vercel.app
 
 Environment variables:
-- `MODEL_PATH`: Path to .h5 model inside the container
-- `NEXT_PUBLIC_API_URL`: Backend API URL for the frontend to connect to
+- `MODEL_PATH`: Path to .h5 model inside the container (`/app/models/emotion_classifier.h5`)
+- `NEXT_PUBLIC_API_URL`: Backend API URL for the frontend (`https://emotion-api-1341.onrender.com`)
 
-> **Note:** On Render's free tier, retraining works in-memory but resets on container restart (no persistent storage).
+> **Note:** On Render's free tier, the service spins down after 15 minutes of inactivity (first request takes ~30-60s to wake). Retraining works in-memory but resets on container restart (no persistent storage).
 
 ---
 
-## Load Testing
+## Load Testing (Flood Request Simulation)
 
-Using Locust to benchmark API performance:
+API performance benchmarked using [Locust](https://locust.io/). Results are saved in `backend/locust/results/`.
 
-```bash
-cd backend
-locust -f locust/locustfile.py --host=http://localhost:8000
-```
+### Results Summary (10 concurrent users, 30 seconds)
 
-Open http://localhost:8089 to configure and run load tests. Tests include health checks, predictions with sample WAV files, and metrics retrieval.
+| Endpoint | Requests | Failures | Avg (ms) | Median (ms) | Max (ms) |
+|----------|----------|----------|----------|-------------|----------|
+| `GET /health` | 31 | 0 | 28 | 3 | 357 |
+| `GET /classes` | 22 | 0 | 28 | 3 | 287 |
+| `GET /metrics` | 15 | 0 | 28 | 3 | 358 |
+| `GET /insights/class-distribution` | 7 | 0 | 229 | 6 | 867 |
+| `POST /predict` | 33 | 0 | 111 | 46 | 866 |
+| `POST /predict/spectrogram` | 20 | 0 | 175 | 110 | 844 |
+| **Aggregated** | **128** | **0** | **83** | **7** | **867** |
+
+- **Total requests:** 128 | **Failure rate:** 0% | **Throughput:** ~4.8 req/s
+
+### How to Run the Load Test
+
+1. Start the backend API locally:
+   ```bash
+   cd backend
+   uvicorn api.main:app --port 8000
+   ```
+
+2. In a separate terminal, run Locust:
+   ```bash
+   cd backend
+   locust -f locust/locustfile.py --host=http://localhost:8000
+   ```
+
+3. Open http://localhost:8089 in your browser.
+
+4. Configure the test:
+   - **Number of users:** 10 (or more for stress testing)
+   - **Spawn rate:** 2 users/second
+   - **Host:** `http://localhost:8000`
+
+5. Click **Start swarming** and observe real-time charts for response times, throughput, and failure rates.
+
+6. To run headless (no browser UI):
+   ```bash
+   locust -f locust/locustfile.py --host=http://localhost:8000 \
+     --users 10 --spawn-rate 2 --run-time 30s --headless \
+     --csv=locust/results/load_test
+   ```
+
+### Test Tasks
+The load test simulates realistic traffic with weighted tasks:
+- Health checks (weight 3) — lightweight status endpoint
+- Emotion prediction with WAV upload (weight 3) — core ML inference
+- Metrics and class retrieval (weight 2 each) — dashboard data
+- Spectrogram prediction (weight 1) — heavier inference + visualization
+- Class distribution insights (weight 1) — dataset analytics
 
 ---
 
