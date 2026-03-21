@@ -1,0 +1,86 @@
+{
+  "results": [
+    {
+      "learning_rate": 0.001,
+      "batch_size": 8,
+      "dropout_rate": 0.5,
+      "val_accuracy": 0.38235294818878174,
+      "val_loss": 1.4393993616104126,
+      "best_epoch": 20,
+      "total_epochs": 20
+    },
+    {
+      "learning_rate": 0.0001,
+      "batch_size": 8,
+      "dropout_rate": 0.25,
+      "val_accuracy": 0.36764705181121826,
+      "val_loss": 1.676365852355957,
+      "best_epoch": 9,
+      "total_epochs": 14
+    },
+    {
+      "learning_rate": 0.0001,
+      "batch_size": 8,
+      "dropout_rate": 0.5,
+      "val_accuracy": 0.36764705181121826,
+      "val_loss": 1.6631436347961426,
+      "best_epoch": 7,
+      "total_epochs": 12
+    },
+    {
+      "learning_rate": 0.001,
+      "batch_size": 16,
+      "dropout_rate": 0.5,
+      "val_accuracy": 0.3529411852359772,
+      "val_loss": 1.5519059896469116,
+      "best_epoch": 20,
+      "total_epochs": 20
+    },
+    {
+      "learning_rate": 0.001,
+      "batch_size": 8,
+      "dropout_rate": 0.25,
+      "val_accuracy": 0.3382352888584137,
+      "val_loss": 1.4625555276870728,
+      "best_epoch": 20,
+      "total_epochs": 20
+    },
+    {
+      "learning_rate": 0.001,
+      "batch_size": 16,
+      "dropout_rate": 0.25,
+      "val_accuracy": 0.3235294222831726,
+      "val_loss": 1.5484483242034912,
+      "best_epoch": 20,
+      "total_epochs": 20
+    },
+    {
+      "learning_rate": 0.0001,
+      "batch_size": 16,
+      "dropout_rate": 0.25,
+      "val_accuracy": 0.27941176295280457,
+      "val_loss": 1.7652809619903564,
+      "best_epoch": 1,
+      "total_epochs": 6
+    },
+    {
+      "learning_rate": 0.0001,
+      "batch_size": 16,
+      "dropout_rate": 0.5,
+      "val_accuracy": 0.27941176295280457,
+      "val_loss": 1.8263344764709473,
+      "best_epoch": 1,
+      "total_epochs": 6
+    }
+  ],
+  "best_params": {
+    "learning_rate": 0.001,
+    "batch_size": 8,
+    "dropout_rate": 0.5,
+    "val_accuracy": 0.38235294818878174,
+    "val_loss": 1.4393993616104126,
+    "best_epoch": 20,
+    "total_epochs": 20
+  },
+  "timestamp": "2026-03-21T17:10:18.655521"
+}
