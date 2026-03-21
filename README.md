@@ -71,24 +71,20 @@ pip install -r requirements.txt
 
 ### 3. Download dataset
 
-Option A — Kaggle CLI:
+1. Download from https://www.kaggle.com/datasets/anuvagoyal/speech-emotion-recognition-for-emergency-calls
+2. Extract `CUSTOM_DATASET/` folder into `backend/data/raw/`
+3. Generate metadata:
 ```bash
-pip install kaggle
-# Place kaggle.json in ~/.kaggle/
+cd backend
 python scripts/download_data.py
 ```
-
-Option B — Manual:
-1. Download from https://www.kaggle.com/datasets/anuvagoyal/speech-emotion-recognition-for-emergency-calls
-2. Extract to `backend/data/raw/CUSTOM_DATASET/`
-3. Run `python scripts/download_data.py --skip-download`
 
 ### 4. Train the model
 
 ```bash
 cd backend
-python -m src.preprocessing   # Generate spectrograms
-python -m src.model            # Train CNN
+python -m src.preprocessing   # Generate mel spectrograms + augmentation
+python -m src.experiments      # Run 5 experiments, select best model
 ```
 
 ### 5. Run the API
@@ -123,16 +119,35 @@ docker-compose up --build
 - **Data Insights** — Visualizations of class distribution, gender breakdown, spectrograms
 - **Model Status** — Live accuracy, F1, precision, recall metrics and confusion matrix
 
-## Load Testing Results
-
-TODO: Add Locust results with different container counts
-
 ## Model Evaluation
+
+Best model: **exp2_deeper_l2** (Deeper CNN + L2 regularization), selected from 5 experiments by F1 score.
 
 | Metric | Score |
 |--------|-------|
-| Accuracy | TODO |
-| F1 Score | TODO |
-| Precision | TODO |
-| Recall | TODO |
-| Loss | TODO |
+| Accuracy | 42.65% |
+| F1 Score | 0.3666 |
+| Precision | 0.3571 |
+| Recall | 0.4216 |
+| Loss | 1.7611 |
+
+### Per-Class Performance
+
+| Emotion | Precision | Recall | F1 |
+|---------|-----------|--------|-----|
+| Angry | 0.43 | 0.83 | 0.57 |
+| Drunk | 0.73 | 0.50 | 0.59 |
+| Painful | 0.27 | 0.35 | 0.31 |
+| Stressful | 0.00 | 0.00 | 0.00 |
+
+### Experiment Comparison
+
+| Experiment | Accuracy | F1 | Params |
+|------------|----------|-----|--------|
+| exp2_deeper_l2 | 0.4265 | 0.3666 | 489,988 |
+| exp5_separable_conv | 0.3529 | 0.3350 | 37,540 |
+| exp1_baseline_cnn | 0.3382 | 0.3193 | 110,596 |
+| exp3_small_aggressive_dropout | 0.3382 | 0.3168 | 28,164 |
+| exp4_large_kernel_sgd | 0.2500 | 0.2327 | 144,388 |
+
+> **Note:** Accuracy is modest (~43%) due to the very small dataset (338 samples, 4 classes). The model performs best on "angry" and "drunk" emotions. Performance can be improved with more training data via the retraining pipeline.
