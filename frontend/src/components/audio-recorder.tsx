@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useRef } from "react";
 import { motion } from "motion/react";
 import { Mic, Square } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -11,13 +12,18 @@ interface AudioRecorderProps {
 }
 
 export function AudioRecorder({ onRecordingComplete, disabled }: AudioRecorderProps) {
-  const { isRecording, audioBlob, duration, startRecording, stopRecording } =
+  const { isRecording, audioBlob, duration, startRecording, stopRecording, reset } =
     useAudioRecorder(3);
+  const handledBlobRef = useRef<Blob | null>(null);
 
-  // When recording completes, notify parent
-  if (audioBlob) {
-    onRecordingComplete(audioBlob);
-  }
+  // When recording completes, notify parent (via useEffect, not during render)
+  useEffect(() => {
+    if (audioBlob && audioBlob !== handledBlobRef.current) {
+      handledBlobRef.current = audioBlob;
+      onRecordingComplete(audioBlob);
+      reset();
+    }
+  }, [audioBlob, onRecordingComplete, reset]);
 
   return (
     <div className="flex items-center gap-4">

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, useCallback } from "react";
+import { useState, useRef } from "react";
 import { motion } from "motion/react";
 import { Upload, Mic, Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -16,40 +16,34 @@ export default function PredictPage() {
   const fileInputRef = useRef<HTMLInputElement>(null);
   const prediction = usePrediction();
 
-  const handleFileSelect = useCallback((file: File) => {
+  function handleFileSelect(file: File) {
     setAudioFile(file);
     setAudioUrl(URL.createObjectURL(file));
     prediction.reset();
-  }, [prediction]);
+  }
 
-  const handleFileInput = useCallback(
-    (e: React.ChangeEvent<HTMLInputElement>) => {
-      const file = e.target.files?.[0];
-      if (file) handleFileSelect(file);
-    },
-    [handleFileSelect]
-  );
+  function handleFileInput(e: React.ChangeEvent<HTMLInputElement>) {
+    const file = e.target.files?.[0];
+    if (file) handleFileSelect(file);
+  }
 
-  const handleRecordingComplete = useCallback(
-    (blob: Blob) => {
-      const file = new File([blob], "recording.wav", { type: "audio/wav" });
-      handleFileSelect(file);
-    },
-    [handleFileSelect]
-  );
+  function handleRecordingComplete(blob: Blob) {
+    const file = new File([blob], "recording.wav", { type: "audio/wav" });
+    handleFileSelect(file);
+  }
 
-  const handleAnalyze = useCallback(() => {
+  function handleAnalyze() {
     if (audioFile) {
       prediction.mutate(audioFile);
     }
-  }, [audioFile, prediction]);
+  }
 
-  const handleReset = useCallback(() => {
+  function handleReset() {
     setAudioFile(null);
     if (audioUrl) URL.revokeObjectURL(audioUrl);
     setAudioUrl(null);
     prediction.reset();
-  }, [audioUrl, prediction]);
+  }
 
   return (
     <div className="space-y-8">

@@ -135,9 +135,6 @@ async def predict_with_spectrogram(file: UploadFile = File(...)):
 
     Returns prediction result plus a base64-encoded PNG of the spectrogram.
     """
-    if not file.filename.lower().endswith((".wav", ".wave")):
-        raise HTTPException(status_code=400, detail="Only WAV files are supported")
-
     with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as tmp:
         content = await file.read()
         tmp.write(content)
