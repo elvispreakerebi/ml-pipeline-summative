@@ -1,4 +1,4 @@
-FROM python:3.10-slim
+FROM python:3.13-slim
 
 # Install system dependencies for librosa/soundfile
 RUN apt-get update && \
@@ -9,7 +9,8 @@ WORKDIR /app
 
 # Install Python dependencies
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir "setuptools<81" && \
+    pip install --no-cache-dir -r requirements.txt
 
 # Copy application code
 COPY . .
