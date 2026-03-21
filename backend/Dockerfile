@@ -1,16 +1,20 @@
 FROM python:3.13-slim
 
-# Install system dependencies for librosa/soundfile
+# Install system dependencies for librosa/soundfile + scipy build tools
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends libsndfile1 ffmpeg gcc g++ gfortran libopenblas-dev && \
+    apt-get install -y --no-install-recommends \
+        libsndfile1 ffmpeg \
+        gcc g++ gfortran pkg-config cmake \
+        libopenblas-dev && \
     rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
 
-# Install Python dependencies
-COPY requirements.txt .
-RUN pip install --no-cache-dir "setuptools<81" && \
-    pip install --no-cache-dir -r requirements.txt
+# Install Python dependencies (deploy-only, no jupyter/locust)
+COPY requirements-deploy.txt .
+RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir "setuptools<81" && \
+    pip install --no-cache-dir -r requirements-deploy.txt
 
 # Copy application code
 COPY . .
