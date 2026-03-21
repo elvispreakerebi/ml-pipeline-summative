@@ -3,17 +3,18 @@ services:
     name: emotion-api
     runtime: docker
     dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
     plan: free
     envVars:
       - key: MODEL_PATH
         value: /app/models/emotion_classifier.h5
-      - key: PORT
-        value: "8000"
+    healthCheckPath: /health
 
   - type: web
     name: emotion-frontend
     runtime: docker
     dockerfilePath: ./frontend/Dockerfile
+    dockerContext: ./frontend
     plan: free
     envVars:
       - key: NEXT_PUBLIC_API_URL
