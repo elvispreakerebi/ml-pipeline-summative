@@ -2,7 +2,7 @@ FROM python:3.13-slim
 
 # Install system dependencies for librosa/soundfile
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends libsndfile1 ffmpeg && \
+    apt-get install -y --no-install-recommends libsndfile1 ffmpeg gcc g++ gfortran libopenblas-dev && \
     rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
