@@ -13,8 +13,10 @@ backend/data/raw/
 backend/data/train/*.npy
 backend/data/test/*.npy
 backend/data/uploads/
-backend/data/metadata.csv
 *.wav
+
+# Locust generated test files
+backend/locust/sample_test.wav
 
 # Models (committed separately after training)
 # backend/models/*.h5

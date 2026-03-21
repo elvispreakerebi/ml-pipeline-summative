@@ -1,0 +1,339 @@
+emotion,emotion_code,sentence,sentence_code,gender,type,speaker,filepath,filename,speaker_folder
+angry,0,We need an ambulance as soon as possible.,1,female,natural,1,data/raw/CUSTOM_DATASET/Speaker1/01_01_01_01_01.wav,01_01_01_01_01.wav,Speaker1
+angry,0,Someone has been lying dead on the street.,2,female,natural,1,data/raw/CUSTOM_DATASET/Speaker1/01_02_01_01_01.wav,01_02_01_01_01.wav,Speaker1
+angry,0,A neighbor of mine is shot dead.,3,female,natural,1,data/raw/CUSTOM_DATASET/Speaker1/01_03_01_01_01.wav,01_03_01_01_01.wav,Speaker1
+angry,0,This place is on fire. Please send help.,4,female,natural,1,data/raw/CUSTOM_DATASET/Speaker1/01_04_01_01_01.wav,01_04_01_01_01.wav,Speaker1
+drunk,1,We need an ambulance as soon as possible.,1,female,natural,1,data/raw/CUSTOM_DATASET/Speaker1/02_01_01_01_01.wav,02_01_01_01_01.wav,Speaker1
+drunk,1,Someone has been lying dead on the street.,2,female,natural,1,data/raw/CUSTOM_DATASET/Speaker1/02_02_01_01_01.wav,02_02_01_01_01.wav,Speaker1
+drunk,1,A neighbor of mine is shot dead.,3,female,natural,1,data/raw/CUSTOM_DATASET/Speaker1/02_03_01_01_01.wav,02_03_01_01_01.wav,Speaker1
+drunk,1,This place is on fire. Please send help.,4,female,natural,1,data/raw/CUSTOM_DATASET/Speaker1/02_04_01_01_01.wav,02_04_01_01_01.wav,Speaker1
+painful,2,We need an ambulance as soon as possible.,1,female,natural,1,data/raw/CUSTOM_DATASET/Speaker1/03_01_01_01_01.wav,03_01_01_01_01.wav,Speaker1
+painful,2,Someone has been lying dead on the street.,2,female,natural,1,data/raw/CUSTOM_DATASET/Speaker1/03_02_01_01_01.wav,03_02_01_01_01.wav,Speaker1
+painful,2,A neighbor of mine is shot dead.,3,female,natural,1,data/raw/CUSTOM_DATASET/Speaker1/03_03_01_01_01.wav,03_03_01_01_01.wav,Speaker1
+painful,2,This place is on fire. Please send help.,4,female,natural,1,data/raw/CUSTOM_DATASET/Speaker1/03_04_01_01_01.wav,03_04_01_01_01.wav,Speaker1
+stressful,3,We need an ambulance as soon as possible.,1,female,natural,1,data/raw/CUSTOM_DATASET/Speaker1/04_01_01_01_01.wav,04_01_01_01_01.wav,Speaker1
+stressful,3,Someone has been lying dead on the street.,2,female,natural,1,data/raw/CUSTOM_DATASET/Speaker1/04_02_01_01_01.wav,04_02_01_01_01.wav,Speaker1
+stressful,3,A neighbor of mine is shot dead.,3,female,natural,1,data/raw/CUSTOM_DATASET/Speaker1/04_03_01_01_01.wav,04_03_01_01_01.wav,Speaker1
+stressful,3,This place is on fire. Please send help.,4,female,natural,1,data/raw/CUSTOM_DATASET/Speaker1/04_04_01_01_01.wav,04_04_01_01_01.wav,Speaker1
+angry,0,We need an ambulance as soon as possible.,1,unknown,synthetic,10,data/raw/CUSTOM_DATASET/Speaker10/01_01_00_02_10.wav,01_01_00_02_10.wav,Speaker10
+angry,0,We need an ambulance as soon as possible.,1,female,natural,10,data/raw/CUSTOM_DATASET/Speaker10/01_01_01_01_10.wav,01_01_01_01_10.wav,Speaker10
+angry,0,Someone has been lying dead on the street.,2,unknown,synthetic,10,data/raw/CUSTOM_DATASET/Speaker10/01_02_00_02_10.wav,01_02_00_02_10.wav,Speaker10
+angry,0,Someone has been lying dead on the street.,2,female,natural,10,data/raw/CUSTOM_DATASET/Speaker10/01_02_01_01_10.wav,01_02_01_01_10.wav,Speaker10
+angry,0,A neighbor of mine is shot dead.,3,unknown,synthetic,10,data/raw/CUSTOM_DATASET/Speaker10/01_03_00_02_10.wav,01_03_00_02_10.wav,Speaker10
+angry,0,A neighbor of mine is shot dead.,3,female,natural,10,data/raw/CUSTOM_DATASET/Speaker10/01_03_01_01_10.wav,01_03_01_01_10.wav,Speaker10
+angry,0,This place is on fire. Please send help.,4,unknown,synthetic,10,data/raw/CUSTOM_DATASET/Speaker10/01_04_00_02_10.wav,01_04_00_02_10.wav,Speaker10
+angry,0,This place is on fire. Please send help.,4,female,natural,10,data/raw/CUSTOM_DATASET/Speaker10/01_04_01_01_10.wav,01_04_01_01_10.wav,Speaker10
+drunk,1,We need an ambulance as soon as possible.,1,unknown,synthetic,10,data/raw/CUSTOM_DATASET/Speaker10/02_01_00_02_10.wav,02_01_00_02_10.wav,Speaker10
+drunk,1,We need an ambulance as soon as possible.,1,female,natural,10,data/raw/CUSTOM_DATASET/Speaker10/02_01_01_01_10.wav,02_01_01_01_10.wav,Speaker10
+drunk,1,A neighbor of mine is shot dead.,3,unknown,synthetic,10,data/raw/CUSTOM_DATASET/Speaker10/02_03_00_02_10.wav,02_03_00_02_10.wav,Speaker10
+drunk,1,A neighbor of mine is shot dead.,3,female,natural,10,data/raw/CUSTOM_DATASET/Speaker10/02_03_01_01_10.wav,02_03_01_01_10.wav,Speaker10
+drunk,1,This place is on fire. Please send help.,4,unknown,synthetic,10,data/raw/CUSTOM_DATASET/Speaker10/02_04_00_02_10.wav,02_04_00_02_10.wav,Speaker10
+drunk,1,This place is on fire. Please send help.,4,female,natural,10,data/raw/CUSTOM_DATASET/Speaker10/02_04_01_01_10.wav,02_04_01_01_10.wav,Speaker10
+painful,2,We need an ambulance as soon as possible.,1,unknown,synthetic,10,data/raw/CUSTOM_DATASET/Speaker10/03_01_00_02_10.wav,03_01_00_02_10.wav,Speaker10
+painful,2,We need an ambulance as soon as possible.,1,female,natural,10,data/raw/CUSTOM_DATASET/Speaker10/03_01_01_01_10.wav,03_01_01_01_10.wav,Speaker10
+painful,2,Someone has been lying dead on the street.,2,unknown,synthetic,10,data/raw/CUSTOM_DATASET/Speaker10/03_02_00_02_10.wav,03_02_00_02_10.wav,Speaker10
+painful,2,Someone has been lying dead on the street.,2,female,natural,10,data/raw/CUSTOM_DATASET/Speaker10/03_02_01_01_10.wav,03_02_01_01_10.wav,Speaker10
+painful,2,A neighbor of mine is shot dead.,3,unknown,synthetic,10,data/raw/CUSTOM_DATASET/Speaker10/03_03_00_02_10.wav,03_03_00_02_10.wav,Speaker10
+painful,2,A neighbor of mine is shot dead.,3,female,natural,10,data/raw/CUSTOM_DATASET/Speaker10/03_03_01_01_10.wav,03_03_01_01_10.wav,Speaker10
+painful,2,This place is on fire. Please send help.,4,unknown,synthetic,10,data/raw/CUSTOM_DATASET/Speaker10/03_04_00_02_10.wav,03_04_00_02_10.wav,Speaker10
+painful,2,This place is on fire. Please send help.,4,female,natural,10,data/raw/CUSTOM_DATASET/Speaker10/03_04_01_01_10.wav,03_04_01_01_10.wav,Speaker10
+stressful,3,We need an ambulance as soon as possible.,1,unknown,synthetic,10,data/raw/CUSTOM_DATASET/Speaker10/04_01_00_02_10.wav,04_01_00_02_10.wav,Speaker10
+stressful,3,We need an ambulance as soon as possible.,1,female,natural,10,data/raw/CUSTOM_DATASET/Speaker10/04_01_01_01_10.wav,04_01_01_01_10.wav,Speaker10
+stressful,3,Someone has been lying dead on the street.,2,unknown,synthetic,10,data/raw/CUSTOM_DATASET/Speaker10/04_02_00_02_10.wav,04_02_00_02_10.wav,Speaker10
+stressful,3,Someone has been lying dead on the street.,2,female,natural,10,data/raw/CUSTOM_DATASET/Speaker10/04_02_01_01_10.wav,04_02_01_01_10.wav,Speaker10
+stressful,3,A neighbor of mine is shot dead.,3,unknown,synthetic,10,data/raw/CUSTOM_DATASET/Speaker10/04_03_00_02_10.wav,04_03_00_02_10.wav,Speaker10
+stressful,3,A neighbor of mine is shot dead.,3,female,natural,10,data/raw/CUSTOM_DATASET/Speaker10/04_03_01_01_10.wav,04_03_01_01_10.wav,Speaker10
+stressful,3,This place is on fire. Please send help.,4,unknown,synthetic,10,data/raw/CUSTOM_DATASET/Speaker10/04_04_00_02_10.wav,04_04_00_02_10.wav,Speaker10
+stressful,3,This place is on fire. Please send help.,4,female,natural,10,data/raw/CUSTOM_DATASET/Speaker10/04_04_01_01_10.wav,04_04_01_01_10.wav,Speaker10
+angry,0,Someone has been lying dead on the street.,2,male,natural,11,data/raw/CUSTOM_DATASET/Speaker11/01_02_02_01_11.wav,01_02_02_01_11.wav,Speaker11
+angry,0,A neighbor of mine is shot dead.,3,male,natural,11,data/raw/CUSTOM_DATASET/Speaker11/01_03_02_01_11.wav,01_03_02_01_11.wav,Speaker11
+angry,0,This place is on fire. Please send help.,4,male,natural,11,data/raw/CUSTOM_DATASET/Speaker11/01_04_02_01_11.wav,01_04_02_01_11.wav,Speaker11
+drunk,1,We need an ambulance as soon as possible.,1,male,natural,11,data/raw/CUSTOM_DATASET/Speaker11/02_01_02_01_11.wav,02_01_02_01_11.wav,Speaker11
+drunk,1,Someone has been lying dead on the street.,2,male,natural,11,data/raw/CUSTOM_DATASET/Speaker11/02_02_02_01_11.wav,02_02_02_01_11.wav,Speaker11
+drunk,1,A neighbor of mine is shot dead.,3,male,natural,11,data/raw/CUSTOM_DATASET/Speaker11/02_03_02_01_11.wav,02_03_02_01_11.wav,Speaker11
+drunk,1,This place is on fire. Please send help.,4,male,natural,11,data/raw/CUSTOM_DATASET/Speaker11/02_04_02_01_11.wav,02_04_02_01_11.wav,Speaker11
+painful,2,Someone has been lying dead on the street.,2,male,natural,11,data/raw/CUSTOM_DATASET/Speaker11/03_02_02_01_11.wav,03_02_02_01_11.wav,Speaker11
+painful,2,This place is on fire. Please send help.,4,male,natural,11,data/raw/CUSTOM_DATASET/Speaker11/03_04_02_01_11.wav,03_04_02_01_11.wav,Speaker11
+stressful,3,Someone has been lying dead on the street.,2,male,natural,11,data/raw/CUSTOM_DATASET/Speaker11/04_02_02_01_11.wav,04_02_02_01_11.wav,Speaker11
+stressful,3,A neighbor of mine is shot dead.,3,male,natural,11,data/raw/CUSTOM_DATASET/Speaker11/04_03_02_01_11.wav,04_03_02_01_11.wav,Speaker11
+stressful,3,This place is on fire. Please send help.,4,male,natural,11,data/raw/CUSTOM_DATASET/Speaker11/04_04_02_01_11.wav,04_04_02_01_11.wav,Speaker11
+angry,0,We need an ambulance as soon as possible.,1,male,natural,12,data/raw/CUSTOM_DATASET/Speaker12/01_01_02_01_12.wav,01_01_02_01_12.wav,Speaker12
+angry,0,Someone has been lying dead on the street.,2,male,natural,12,data/raw/CUSTOM_DATASET/Speaker12/01_02_02_01_12.wav,01_02_02_01_12.wav,Speaker12
+angry,0,A neighbor of mine is shot dead.,3,male,natural,12,data/raw/CUSTOM_DATASET/Speaker12/01_03_02_01_12.wav,01_03_02_01_12.wav,Speaker12
+angry,0,This place is on fire. Please send help.,4,male,natural,12,data/raw/CUSTOM_DATASET/Speaker12/01_04_02_01_12.wav,01_04_02_01_12.wav,Speaker12
+drunk,1,We need an ambulance as soon as possible.,1,male,natural,12,data/raw/CUSTOM_DATASET/Speaker12/02_01_02_01_12.wav,02_01_02_01_12.wav,Speaker12
+drunk,1,Someone has been lying dead on the street.,2,male,natural,12,data/raw/CUSTOM_DATASET/Speaker12/02_02_02_01_12.wav,02_02_02_01_12.wav,Speaker12
+drunk,1,A neighbor of mine is shot dead.,3,male,natural,12,data/raw/CUSTOM_DATASET/Speaker12/02_03_02_01_12.wav,02_03_02_01_12.wav,Speaker12
+drunk,1,This place is on fire. Please send help.,4,male,natural,12,data/raw/CUSTOM_DATASET/Speaker12/02_04_02_01_12.wav,02_04_02_01_12.wav,Speaker12
+painful,2,We need an ambulance as soon as possible.,1,male,natural,12,data/raw/CUSTOM_DATASET/Speaker12/03_01_02_01_12.wav,03_01_02_01_12.wav,Speaker12
+painful,2,Someone has been lying dead on the street.,2,male,natural,12,data/raw/CUSTOM_DATASET/Speaker12/03_02_02_01_12.wav,03_02_02_01_12.wav,Speaker12
+painful,2,A neighbor of mine is shot dead.,3,male,natural,12,data/raw/CUSTOM_DATASET/Speaker12/03_03_02_01_12.wav,03_03_02_01_12.wav,Speaker12
+painful,2,This place is on fire. Please send help.,4,male,natural,12,data/raw/CUSTOM_DATASET/Speaker12/03_04_02_01_12.wav,03_04_02_01_12.wav,Speaker12
+stressful,3,We need an ambulance as soon as possible.,1,male,natural,12,data/raw/CUSTOM_DATASET/Speaker12/04_01_02_01_12.wav,04_01_02_01_12.wav,Speaker12
+stressful,3,Someone has been lying dead on the street.,2,male,natural,12,data/raw/CUSTOM_DATASET/Speaker12/04_02_02_01_12.wav,04_02_02_01_12.wav,Speaker12
+stressful,3,A neighbor of mine is shot dead.,3,male,natural,12,data/raw/CUSTOM_DATASET/Speaker12/04_03_02_01_12.wav,04_03_02_01_12.wav,Speaker12
+stressful,3,This place is on fire. Please send help.,4,male,natural,12,data/raw/CUSTOM_DATASET/Speaker12/04_04_02_01_12.wav,04_04_02_01_12.wav,Speaker12
+angry,0,We need an ambulance as soon as possible.,1,unknown,synthetic,13,data/raw/CUSTOM_DATASET/Speaker13/01_01_00_02_13.wav,01_01_00_02_13.wav,Speaker13
+angry,0,We need an ambulance as soon as possible.,1,male,natural,13,data/raw/CUSTOM_DATASET/Speaker13/01_01_02_01_13.wav,01_01_02_01_13.wav,Speaker13
+angry,0,Someone has been lying dead on the street.,2,unknown,synthetic,13,data/raw/CUSTOM_DATASET/Speaker13/01_02_00_02_13.wav,01_02_00_02_13.wav,Speaker13
+angry,0,Someone has been lying dead on the street.,2,male,natural,13,data/raw/CUSTOM_DATASET/Speaker13/01_02_02_01_13.wav,01_02_02_01_13.wav,Speaker13
+angry,0,A neighbor of mine is shot dead.,3,unknown,synthetic,13,data/raw/CUSTOM_DATASET/Speaker13/01_03_00_02_13.wav,01_03_00_02_13.wav,Speaker13
+angry,0,A neighbor of mine is shot dead.,3,male,natural,13,data/raw/CUSTOM_DATASET/Speaker13/01_03_02_01_13.wav,01_03_02_01_13.wav,Speaker13
+angry,0,This place is on fire. Please send help.,4,unknown,synthetic,13,data/raw/CUSTOM_DATASET/Speaker13/01_04_00_02_13.wav,01_04_00_02_13.wav,Speaker13
+angry,0,This place is on fire. Please send help.,4,male,natural,13,data/raw/CUSTOM_DATASET/Speaker13/01_04_02_01_13.wav,01_04_02_01_13.wav,Speaker13
+drunk,1,We need an ambulance as soon as possible.,1,unknown,synthetic,13,data/raw/CUSTOM_DATASET/Speaker13/02_01_00_02_13.wav,02_01_00_02_13.wav,Speaker13
+drunk,1,We need an ambulance as soon as possible.,1,male,natural,13,data/raw/CUSTOM_DATASET/Speaker13/02_01_02_01_13.wav,02_01_02_01_13.wav,Speaker13
+drunk,1,Someone has been lying dead on the street.,2,unknown,synthetic,13,data/raw/CUSTOM_DATASET/Speaker13/02_02_00_02_13.wav,02_02_00_02_13.wav,Speaker13
+drunk,1,Someone has been lying dead on the street.,2,male,natural,13,data/raw/CUSTOM_DATASET/Speaker13/02_02_02_01_13.wav,02_02_02_01_13.wav,Speaker13
+drunk,1,A neighbor of mine is shot dead.,3,unknown,synthetic,13,data/raw/CUSTOM_DATASET/Speaker13/02_03_00_02_13.wav,02_03_00_02_13.wav,Speaker13
+drunk,1,A neighbor of mine is shot dead.,3,male,natural,13,data/raw/CUSTOM_DATASET/Speaker13/02_03_02_01_13.wav,02_03_02_01_13.wav,Speaker13
+drunk,1,This place is on fire. Please send help.,4,unknown,synthetic,13,data/raw/CUSTOM_DATASET/Speaker13/02_04_00_02_13.wav,02_04_00_02_13.wav,Speaker13
+drunk,1,This place is on fire. Please send help.,4,male,natural,13,data/raw/CUSTOM_DATASET/Speaker13/02_04_02_01_13.wav,02_04_02_01_13.wav,Speaker13
+painful,2,We need an ambulance as soon as possible.,1,unknown,synthetic,13,data/raw/CUSTOM_DATASET/Speaker13/03_01_00_02_13.wav,03_01_00_02_13.wav,Speaker13
+painful,2,We need an ambulance as soon as possible.,1,male,natural,13,data/raw/CUSTOM_DATASET/Speaker13/03_01_02_01_13.wav,03_01_02_01_13.wav,Speaker13
+painful,2,Someone has been lying dead on the street.,2,unknown,synthetic,13,data/raw/CUSTOM_DATASET/Speaker13/03_02_00_02_13.wav,03_02_00_02_13.wav,Speaker13
+painful,2,Someone has been lying dead on the street.,2,male,natural,13,data/raw/CUSTOM_DATASET/Speaker13/03_02_02_01_13.wav,03_02_02_01_13.wav,Speaker13
+painful,2,A neighbor of mine is shot dead.,3,unknown,synthetic,13,data/raw/CUSTOM_DATASET/Speaker13/03_03_00_02_13.wav,03_03_00_02_13.wav,Speaker13
+painful,2,A neighbor of mine is shot dead.,3,male,natural,13,data/raw/CUSTOM_DATASET/Speaker13/03_03_02_01_13.wav,03_03_02_01_13.wav,Speaker13
+painful,2,This place is on fire. Please send help.,4,unknown,synthetic,13,data/raw/CUSTOM_DATASET/Speaker13/03_04_00_02_13.wav,03_04_00_02_13.wav,Speaker13
+painful,2,This place is on fire. Please send help.,4,male,natural,13,data/raw/CUSTOM_DATASET/Speaker13/03_04_02_01_13.wav,03_04_02_01_13.wav,Speaker13
+stressful,3,We need an ambulance as soon as possible.,1,unknown,synthetic,13,data/raw/CUSTOM_DATASET/Speaker13/04_01_00_02_13.wav,04_01_00_02_13.wav,Speaker13
+stressful,3,We need an ambulance as soon as possible.,1,male,natural,13,data/raw/CUSTOM_DATASET/Speaker13/04_01_02_01_13.wav,04_01_02_01_13.wav,Speaker13
+stressful,3,Someone has been lying dead on the street.,2,unknown,synthetic,13,data/raw/CUSTOM_DATASET/Speaker13/04_02_00_02_13.wav,04_02_00_02_13.wav,Speaker13
+stressful,3,Someone has been lying dead on the street.,2,male,natural,13,data/raw/CUSTOM_DATASET/Speaker13/04_02_02_01_13.wav,04_02_02_01_13.wav,Speaker13
+stressful,3,A neighbor of mine is shot dead.,3,unknown,synthetic,13,data/raw/CUSTOM_DATASET/Speaker13/04_03_00_02_13.wav,04_03_00_02_13.wav,Speaker13
+stressful,3,A neighbor of mine is shot dead.,3,male,natural,13,data/raw/CUSTOM_DATASET/Speaker13/04_03_02_01_13.wav,04_03_02_01_13.wav,Speaker13
+stressful,3,This place is on fire. Please send help.,4,unknown,synthetic,13,data/raw/CUSTOM_DATASET/Speaker13/04_04_00_02_13.wav,04_04_00_02_13.wav,Speaker13
+stressful,3,This place is on fire. Please send help.,4,male,natural,13,data/raw/CUSTOM_DATASET/Speaker13/04_04_02_01_13.wav,04_04_02_01_13.wav,Speaker13
+angry,0,We need an ambulance as soon as possible.,1,female,natural,14,data/raw/CUSTOM_DATASET/Speaker14/01_01_01_01_14.wav,01_01_01_01_14.wav,Speaker14
+angry,0,Someone has been lying dead on the street.,2,female,natural,14,data/raw/CUSTOM_DATASET/Speaker14/01_02_01_01_14.wav,01_02_01_01_14.wav,Speaker14
+angry,0,A neighbor of mine is shot dead.,3,female,natural,14,data/raw/CUSTOM_DATASET/Speaker14/01_03_01_01_14.wav,01_03_01_01_14.wav,Speaker14
+angry,0,This place is on fire. Please send help.,4,female,natural,14,data/raw/CUSTOM_DATASET/Speaker14/01_04_01_01_14.wav,01_04_01_01_14.wav,Speaker14
+drunk,1,We need an ambulance as soon as possible.,1,female,natural,14,data/raw/CUSTOM_DATASET/Speaker14/02_01_01_01_14.wav,02_01_01_01_14.wav,Speaker14
+drunk,1,Someone has been lying dead on the street.,2,female,natural,14,data/raw/CUSTOM_DATASET/Speaker14/02_02_01_01_14.wav,02_02_01_01_14.wav,Speaker14
+drunk,1,A neighbor of mine is shot dead.,3,female,natural,14,data/raw/CUSTOM_DATASET/Speaker14/02_03_01_01_14.wav,02_03_01_01_14.wav,Speaker14
+drunk,1,This place is on fire. Please send help.,4,female,natural,14,data/raw/CUSTOM_DATASET/Speaker14/02_04_01_01_14.wav,02_04_01_01_14.wav,Speaker14
+painful,2,We need an ambulance as soon as possible.,1,female,natural,14,data/raw/CUSTOM_DATASET/Speaker14/03_01_01_01_14.wav,03_01_01_01_14.wav,Speaker14
+painful,2,Someone has been lying dead on the street.,2,female,natural,14,data/raw/CUSTOM_DATASET/Speaker14/03_02_01_01_14.wav,03_02_01_01_14.wav,Speaker14
+painful,2,A neighbor of mine is shot dead.,3,female,natural,14,data/raw/CUSTOM_DATASET/Speaker14/03_03_01_01_14.wav,03_03_01_01_14.wav,Speaker14
+painful,2,This place is on fire. Please send help.,4,female,natural,14,data/raw/CUSTOM_DATASET/Speaker14/03_04_01_01_14.wav,03_04_01_01_14.wav,Speaker14
+stressful,3,We need an ambulance as soon as possible.,1,female,natural,14,data/raw/CUSTOM_DATASET/Speaker14/04_01_01_01_14.wav,04_01_01_01_14.wav,Speaker14
+stressful,3,Someone has been lying dead on the street.,2,female,natural,14,data/raw/CUSTOM_DATASET/Speaker14/04_02_01_01_14.wav,04_02_01_01_14.wav,Speaker14
+stressful,3,A neighbor of mine is shot dead.,3,female,natural,14,data/raw/CUSTOM_DATASET/Speaker14/04_03_01_01_14.wav,04_03_01_01_14.wav,Speaker14
+stressful,3,This place is on fire. Please send help.,4,female,natural,14,data/raw/CUSTOM_DATASET/Speaker14/04_04_01_01_14.wav,04_04_01_01_14.wav,Speaker14
+angry,0,We need an ambulance as soon as possible.,1,female,natural,15,data/raw/CUSTOM_DATASET/Speaker15/01_01_01_01_15.wav,01_01_01_01_15.wav,Speaker15
+angry,0,Someone has been lying dead on the street.,2,female,natural,15,data/raw/CUSTOM_DATASET/Speaker15/01_02_01_01_15.wav,01_02_01_01_15.wav,Speaker15
+angry,0,A neighbor of mine is shot dead.,3,female,natural,15,data/raw/CUSTOM_DATASET/Speaker15/01_03_01_01_15.wav,01_03_01_01_15.wav,Speaker15
+angry,0,This place is on fire. Please send help.,4,female,natural,15,data/raw/CUSTOM_DATASET/Speaker15/01_04_01_01_15.wav,01_04_01_01_15.wav,Speaker15
+drunk,1,We need an ambulance as soon as possible.,1,female,natural,15,data/raw/CUSTOM_DATASET/Speaker15/02_01_01_01_15.wav,02_01_01_01_15.wav,Speaker15
+drunk,1,Someone has been lying dead on the street.,2,female,natural,15,data/raw/CUSTOM_DATASET/Speaker15/02_02_01_01_15.wav,02_02_01_01_15.wav,Speaker15
+drunk,1,A neighbor of mine is shot dead.,3,female,natural,15,data/raw/CUSTOM_DATASET/Speaker15/02_03_01_01_15.wav,02_03_01_01_15.wav,Speaker15
+drunk,1,This place is on fire. Please send help.,4,female,natural,15,data/raw/CUSTOM_DATASET/Speaker15/02_04_01_01_15.wav,02_04_01_01_15.wav,Speaker15
+painful,2,We need an ambulance as soon as possible.,1,female,natural,15,data/raw/CUSTOM_DATASET/Speaker15/03_01_01_01_15.wav,03_01_01_01_15.wav,Speaker15
+painful,2,Someone has been lying dead on the street.,2,female,natural,15,data/raw/CUSTOM_DATASET/Speaker15/03_02_01_01_15.wav,03_02_01_01_15.wav,Speaker15
+painful,2,A neighbor of mine is shot dead.,3,female,natural,15,data/raw/CUSTOM_DATASET/Speaker15/03_03_01_01_15.wav,03_03_01_01_15.wav,Speaker15
+painful,2,This place is on fire. Please send help.,4,female,natural,15,data/raw/CUSTOM_DATASET/Speaker15/03_04_01_01_15.wav,03_04_01_01_15.wav,Speaker15
+stressful,3,We need an ambulance as soon as possible.,1,female,natural,15,data/raw/CUSTOM_DATASET/Speaker15/04_01_01_01_15.wav,04_01_01_01_15.wav,Speaker15
+stressful,3,Someone has been lying dead on the street.,2,female,natural,15,data/raw/CUSTOM_DATASET/Speaker15/04_02_01_01_15.wav,04_02_01_01_15.wav,Speaker15
+stressful,3,A neighbor of mine is shot dead.,3,female,natural,15,data/raw/CUSTOM_DATASET/Speaker15/04_03_01_01_15.wav,04_03_01_01_15.wav,Speaker15
+stressful,3,This place is on fire. Please send help.,4,female,natural,15,data/raw/CUSTOM_DATASET/Speaker15/04_04_01_01_15.wav,04_04_01_01_15.wav,Speaker15
+angry,0,We need an ambulance as soon as possible.,1,male,natural,16,data/raw/CUSTOM_DATASET/Speaker16/01_01_02_01_16.wav,01_01_02_01_16.wav,Speaker16
+angry,0,Someone has been lying dead on the street.,2,male,natural,16,data/raw/CUSTOM_DATASET/Speaker16/01_02_02_01_16.wav,01_02_02_01_16.wav,Speaker16
+angry,0,A neighbor of mine is shot dead.,3,male,natural,16,data/raw/CUSTOM_DATASET/Speaker16/01_03_02_01_16.wav,01_03_02_01_16.wav,Speaker16
+angry,0,This place is on fire. Please send help.,4,male,natural,16,data/raw/CUSTOM_DATASET/Speaker16/01_04_02_01_16.wav,01_04_02_01_16.wav,Speaker16
+drunk,1,We need an ambulance as soon as possible.,1,male,natural,16,data/raw/CUSTOM_DATASET/Speaker16/02_01_02_01_16.wav,02_01_02_01_16.wav,Speaker16
+drunk,1,Someone has been lying dead on the street.,2,male,natural,16,data/raw/CUSTOM_DATASET/Speaker16/02_02_02_01_16.wav,02_02_02_01_16.wav,Speaker16
+drunk,1,A neighbor of mine is shot dead.,3,male,natural,16,data/raw/CUSTOM_DATASET/Speaker16/02_03_02_01_16.wav,02_03_02_01_16.wav,Speaker16
+drunk,1,This place is on fire. Please send help.,4,male,natural,16,data/raw/CUSTOM_DATASET/Speaker16/02_04_02_01_16.wav,02_04_02_01_16.wav,Speaker16
+painful,2,We need an ambulance as soon as possible.,1,male,natural,16,data/raw/CUSTOM_DATASET/Speaker16/03_01_02_01_16.wav,03_01_02_01_16.wav,Speaker16
+painful,2,Someone has been lying dead on the street.,2,male,natural,16,data/raw/CUSTOM_DATASET/Speaker16/03_02_02_01_16.wav,03_02_02_01_16.wav,Speaker16
+painful,2,A neighbor of mine is shot dead.,3,male,natural,16,data/raw/CUSTOM_DATASET/Speaker16/03_03_02_01_16.wav,03_03_02_01_16.wav,Speaker16
+painful,2,This place is on fire. Please send help.,4,male,natural,16,data/raw/CUSTOM_DATASET/Speaker16/03_04_02_01_16.wav,03_04_02_01_16.wav,Speaker16
+stressful,3,We need an ambulance as soon as possible.,1,male,natural,16,data/raw/CUSTOM_DATASET/Speaker16/04_01_02_01_16.wav,04_01_02_01_16.wav,Speaker16
+stressful,3,Someone has been lying dead on the street.,2,male,natural,16,data/raw/CUSTOM_DATASET/Speaker16/04_02_02_01_16.wav,04_02_02_01_16.wav,Speaker16
+stressful,3,A neighbor of mine is shot dead.,3,male,natural,16,data/raw/CUSTOM_DATASET/Speaker16/04_03_02_01_16.wav,04_03_02_01_16.wav,Speaker16
+stressful,3,This place is on fire. Please send help.,4,male,natural,16,data/raw/CUSTOM_DATASET/Speaker16/04_04_02_01_16.wav,04_04_02_01_16.wav,Speaker16
+angry,0,We need an ambulance as soon as possible.,1,male,natural,17,data/raw/CUSTOM_DATASET/Speaker17/01_01_02_01_17.wav,01_01_02_01_17.wav,Speaker17
+angry,0,Someone has been lying dead on the street.,2,male,natural,17,data/raw/CUSTOM_DATASET/Speaker17/01_02_02_01_17.wav,01_02_02_01_17.wav,Speaker17
+angry,0,A neighbor of mine is shot dead.,3,male,natural,17,data/raw/CUSTOM_DATASET/Speaker17/01_03_02_01_17.wav,01_03_02_01_17.wav,Speaker17
+angry,0,This place is on fire. Please send help.,4,male,natural,17,data/raw/CUSTOM_DATASET/Speaker17/01_04_02_01_17.wav,01_04_02_01_17.wav,Speaker17
+drunk,1,We need an ambulance as soon as possible.,1,male,natural,17,data/raw/CUSTOM_DATASET/Speaker17/02_01_02_01_17.wav,02_01_02_01_17.wav,Speaker17
+drunk,1,Someone has been lying dead on the street.,2,male,natural,17,data/raw/CUSTOM_DATASET/Speaker17/02_02_02_01_17.wav,02_02_02_01_17.wav,Speaker17
+drunk,1,A neighbor of mine is shot dead.,3,male,natural,17,data/raw/CUSTOM_DATASET/Speaker17/02_03_02_01_17.wav,02_03_02_01_17.wav,Speaker17
+drunk,1,This place is on fire. Please send help.,4,male,natural,17,data/raw/CUSTOM_DATASET/Speaker17/02_04_02_01_17.wav,02_04_02_01_17.wav,Speaker17
+painful,2,We need an ambulance as soon as possible.,1,male,natural,17,data/raw/CUSTOM_DATASET/Speaker17/03_01_02_01_17.wav,03_01_02_01_17.wav,Speaker17
+painful,2,Someone has been lying dead on the street.,2,male,natural,17,data/raw/CUSTOM_DATASET/Speaker17/03_02_02_01_17.wav,03_02_02_01_17.wav,Speaker17
+painful,2,A neighbor of mine is shot dead.,3,male,natural,17,data/raw/CUSTOM_DATASET/Speaker17/03_03_02_01_17.wav,03_03_02_01_17.wav,Speaker17
+painful,2,This place is on fire. Please send help.,4,male,natural,17,data/raw/CUSTOM_DATASET/Speaker17/03_04_02_01_17.wav,03_04_02_01_17.wav,Speaker17
+stressful,3,We need an ambulance as soon as possible.,1,male,natural,17,data/raw/CUSTOM_DATASET/Speaker17/04_01_02_01_17.wav,04_01_02_01_17.wav,Speaker17
+stressful,3,Someone has been lying dead on the street.,2,male,natural,17,data/raw/CUSTOM_DATASET/Speaker17/04_02_02_01_17.wav,04_02_02_01_17.wav,Speaker17
+stressful,3,A neighbor of mine is shot dead.,3,male,natural,17,data/raw/CUSTOM_DATASET/Speaker17/04_03_02_01_17.wav,04_03_02_01_17.wav,Speaker17
+stressful,3,This place is on fire. Please send help.,4,male,natural,17,data/raw/CUSTOM_DATASET/Speaker17/04_04_02_01_17.wav,04_04_02_01_17.wav,Speaker17
+angry,0,We need an ambulance as soon as possible.,1,female,natural,18,data/raw/CUSTOM_DATASET/Speaker18/01_01_01_01_18.wav,01_01_01_01_18.wav,Speaker18
+angry,0,Someone has been lying dead on the street.,2,female,natural,18,data/raw/CUSTOM_DATASET/Speaker18/01_02_01_01_18.wav,01_02_01_01_18.wav,Speaker18
+angry,0,A neighbor of mine is shot dead.,3,female,natural,18,data/raw/CUSTOM_DATASET/Speaker18/01_03_01_01_18.wav,01_03_01_01_18.wav,Speaker18
+angry,0,This place is on fire. Please send help.,4,female,natural,18,data/raw/CUSTOM_DATASET/Speaker18/01_04_01_01_18.wav,01_04_01_01_18.wav,Speaker18
+drunk,1,We need an ambulance as soon as possible.,1,female,natural,18,data/raw/CUSTOM_DATASET/Speaker18/02_01_01_01_18.wav,02_01_01_01_18.wav,Speaker18
+drunk,1,Someone has been lying dead on the street.,2,female,natural,18,data/raw/CUSTOM_DATASET/Speaker18/02_02_01_01_18.wav,02_02_01_01_18.wav,Speaker18
+drunk,1,A neighbor of mine is shot dead.,3,female,natural,18,data/raw/CUSTOM_DATASET/Speaker18/02_03_01_01_18.wav,02_03_01_01_18.wav,Speaker18
+drunk,1,This place is on fire. Please send help.,4,female,natural,18,data/raw/CUSTOM_DATASET/Speaker18/02_04_01_01_18.wav,02_04_01_01_18.wav,Speaker18
+painful,2,We need an ambulance as soon as possible.,1,female,natural,18,data/raw/CUSTOM_DATASET/Speaker18/03_01_01_01_18.wav,03_01_01_01_18.wav,Speaker18
+painful,2,Someone has been lying dead on the street.,2,female,natural,18,data/raw/CUSTOM_DATASET/Speaker18/03_02_01_01_18.wav,03_02_01_01_18.wav,Speaker18
+painful,2,A neighbor of mine is shot dead.,3,female,natural,18,data/raw/CUSTOM_DATASET/Speaker18/03_03_01_01_18.wav,03_03_01_01_18.wav,Speaker18
+painful,2,This place is on fire. Please send help.,4,female,natural,18,data/raw/CUSTOM_DATASET/Speaker18/03_04_01_01_18.wav,03_04_01_01_18.wav,Speaker18
+stressful,3,We need an ambulance as soon as possible.,1,female,natural,18,data/raw/CUSTOM_DATASET/Speaker18/04_01_01_01_18.wav,04_01_01_01_18.wav,Speaker18
+stressful,3,Someone has been lying dead on the street.,2,female,natural,18,data/raw/CUSTOM_DATASET/Speaker18/04_02_01_01_18.wav,04_02_01_01_18.wav,Speaker18
+stressful,3,A neighbor of mine is shot dead.,3,female,natural,18,data/raw/CUSTOM_DATASET/Speaker18/04_03_01_01_18.wav,04_03_01_01_18.wav,Speaker18
+stressful,3,This place is on fire. Please send help.,4,female,natural,18,data/raw/CUSTOM_DATASET/Speaker18/04_04_01_01_18.wav,04_04_01_01_18.wav,Speaker18
+angry,0,We need an ambulance as soon as possible.,1,unknown,synthetic,2,data/raw/CUSTOM_DATASET/Speaker2/01_01_00_02_02.wav,01_01_00_02_02.wav,Speaker2
+angry,0,We need an ambulance as soon as possible.,1,female,natural,2,data/raw/CUSTOM_DATASET/Speaker2/01_01_01_01_02.wav,01_01_01_01_02.wav,Speaker2
+angry,0,Someone has been lying dead on the street.,2,unknown,synthetic,2,data/raw/CUSTOM_DATASET/Speaker2/01_02_00_02_02.wav,01_02_00_02_02.wav,Speaker2
+angry,0,Someone has been lying dead on the street.,2,female,natural,2,data/raw/CUSTOM_DATASET/Speaker2/01_02_01_01_02.wav,01_02_01_01_02.wav,Speaker2
+angry,0,A neighbor of mine is shot dead.,3,unknown,synthetic,2,data/raw/CUSTOM_DATASET/Speaker2/01_03_00_02_02.wav,01_03_00_02_02.wav,Speaker2
+angry,0,A neighbor of mine is shot dead.,3,female,natural,2,data/raw/CUSTOM_DATASET/Speaker2/01_03_01_01_02.wav,01_03_01_01_02.wav,Speaker2
+angry,0,This place is on fire. Please send help.,4,unknown,synthetic,2,data/raw/CUSTOM_DATASET/Speaker2/01_04_00_02_02.wav,01_04_00_02_02.wav,Speaker2
+angry,0,This place is on fire. Please send help.,4,female,natural,2,data/raw/CUSTOM_DATASET/Speaker2/01_04_01_01_02.wav,01_04_01_01_02.wav,Speaker2
+drunk,1,We need an ambulance as soon as possible.,1,unknown,synthetic,2,data/raw/CUSTOM_DATASET/Speaker2/02_01_00_02_02.wav,02_01_00_02_02.wav,Speaker2
+drunk,1,We need an ambulance as soon as possible.,1,female,natural,2,data/raw/CUSTOM_DATASET/Speaker2/02_01_01_01_02.wav,02_01_01_01_02.wav,Speaker2
+drunk,1,Someone has been lying dead on the street.,2,unknown,synthetic,2,data/raw/CUSTOM_DATASET/Speaker2/02_02_00_02_02.wav,02_02_00_02_02.wav,Speaker2
+drunk,1,Someone has been lying dead on the street.,2,female,natural,2,data/raw/CUSTOM_DATASET/Speaker2/02_02_01_01_02.wav,02_02_01_01_02.wav,Speaker2
+drunk,1,A neighbor of mine is shot dead.,3,unknown,synthetic,2,data/raw/CUSTOM_DATASET/Speaker2/02_03_00_02_02.wav,02_03_00_02_02.wav,Speaker2
+drunk,1,A neighbor of mine is shot dead.,3,female,natural,2,data/raw/CUSTOM_DATASET/Speaker2/02_03_01_01_02.wav,02_03_01_01_02.wav,Speaker2
+drunk,1,This place is on fire. Please send help.,4,unknown,synthetic,2,data/raw/CUSTOM_DATASET/Speaker2/02_04_00_02_02.wav,02_04_00_02_02.wav,Speaker2
+drunk,1,This place is on fire. Please send help.,4,female,natural,2,data/raw/CUSTOM_DATASET/Speaker2/02_04_01_01_02.wav,02_04_01_01_02.wav,Speaker2
+painful,2,We need an ambulance as soon as possible.,1,unknown,synthetic,2,data/raw/CUSTOM_DATASET/Speaker2/03_01_00_02_02.wav,03_01_00_02_02.wav,Speaker2
+painful,2,We need an ambulance as soon as possible.,1,female,natural,2,data/raw/CUSTOM_DATASET/Speaker2/03_01_01_01_02.wav,03_01_01_01_02.wav,Speaker2
+painful,2,Someone has been lying dead on the street.,2,unknown,synthetic,2,data/raw/CUSTOM_DATASET/Speaker2/03_02_00_02_02.wav,03_02_00_02_02.wav,Speaker2
+painful,2,Someone has been lying dead on the street.,2,female,natural,2,data/raw/CUSTOM_DATASET/Speaker2/03_02_01_01_02.wav,03_02_01_01_02.wav,Speaker2
+painful,2,A neighbor of mine is shot dead.,3,unknown,synthetic,2,data/raw/CUSTOM_DATASET/Speaker2/03_03_00_02_02.wav,03_03_00_02_02.wav,Speaker2
+painful,2,A neighbor of mine is shot dead.,3,female,natural,2,data/raw/CUSTOM_DATASET/Speaker2/03_03_01_01_02.wav,03_03_01_01_02.wav,Speaker2
+painful,2,This place is on fire. Please send help.,4,unknown,synthetic,2,data/raw/CUSTOM_DATASET/Speaker2/03_04_00_02_02.wav,03_04_00_02_02.wav,Speaker2
+painful,2,This place is on fire. Please send help.,4,female,natural,2,data/raw/CUSTOM_DATASET/Speaker2/03_04_01_01_02.wav,03_04_01_01_02.wav,Speaker2
+stressful,3,We need an ambulance as soon as possible.,1,unknown,synthetic,2,data/raw/CUSTOM_DATASET/Speaker2/04_01_00_02_02.wav,04_01_00_02_02.wav,Speaker2
+stressful,3,We need an ambulance as soon as possible.,1,female,natural,2,data/raw/CUSTOM_DATASET/Speaker2/04_01_01_01_02.wav,04_01_01_01_02.wav,Speaker2
+stressful,3,Someone has been lying dead on the street.,2,unknown,synthetic,2,data/raw/CUSTOM_DATASET/Speaker2/04_02_00_02_02.wav,04_02_00_02_02.wav,Speaker2
+stressful,3,Someone has been lying dead on the street.,2,female,natural,2,data/raw/CUSTOM_DATASET/Speaker2/04_02_01_01_02.wav,04_02_01_01_02.wav,Speaker2
+stressful,3,A neighbor of mine is shot dead.,3,unknown,synthetic,2,data/raw/CUSTOM_DATASET/Speaker2/04_03_00_02_02.wav,04_03_00_02_02.wav,Speaker2
+stressful,3,A neighbor of mine is shot dead.,3,female,natural,2,data/raw/CUSTOM_DATASET/Speaker2/04_03_01_01_02.wav,04_03_01_01_02.wav,Speaker2
+stressful,3,This place is on fire. Please send help.,4,unknown,synthetic,2,data/raw/CUSTOM_DATASET/Speaker2/04_04_00_02_02.wav,04_04_00_02_02.wav,Speaker2
+stressful,3,This place is on fire. Please send help.,4,female,natural,2,data/raw/CUSTOM_DATASET/Speaker2/04_04_01_01_02.wav,04_04_01_01_02.wav,Speaker2
+angry,0,We need an ambulance as soon as possible.,1,female,natural,3,data/raw/CUSTOM_DATASET/Speaker3/01_01_01_01_03.wav,01_01_01_01_03.wav,Speaker3
+angry,0,Someone has been lying dead on the street.,2,female,natural,3,data/raw/CUSTOM_DATASET/Speaker3/01_02_01_01_03.wav,01_02_01_01_03.wav,Speaker3
+angry,0,A neighbor of mine is shot dead.,3,female,natural,3,data/raw/CUSTOM_DATASET/Speaker3/01_03_01_01_03.wav,01_03_01_01_03.wav,Speaker3
+angry,0,This place is on fire. Please send help.,4,female,natural,3,data/raw/CUSTOM_DATASET/Speaker3/01_04_01_01_03.wav,01_04_01_01_03.wav,Speaker3
+drunk,1,We need an ambulance as soon as possible.,1,female,natural,3,data/raw/CUSTOM_DATASET/Speaker3/02_01_01_01_03.wav,02_01_01_01_03.wav,Speaker3
+drunk,1,Someone has been lying dead on the street.,2,female,natural,3,data/raw/CUSTOM_DATASET/Speaker3/02_02_01_01_03.wav,02_02_01_01_03.wav,Speaker3
+drunk,1,A neighbor of mine is shot dead.,3,female,natural,3,data/raw/CUSTOM_DATASET/Speaker3/02_03_01_01_03.wav,02_03_01_01_03.wav,Speaker3
+drunk,1,This place is on fire. Please send help.,4,female,natural,3,data/raw/CUSTOM_DATASET/Speaker3/02_04_01_01_03.wav,02_04_01_01_03.wav,Speaker3
+painful,2,We need an ambulance as soon as possible.,1,female,natural,3,data/raw/CUSTOM_DATASET/Speaker3/03_01_01_01_03.wav,03_01_01_01_03.wav,Speaker3
+painful,2,Someone has been lying dead on the street.,2,female,natural,3,data/raw/CUSTOM_DATASET/Speaker3/03_02_01_01_03.wav,03_02_01_01_03.wav,Speaker3
+painful,2,A neighbor of mine is shot dead.,3,female,natural,3,data/raw/CUSTOM_DATASET/Speaker3/03_03_01_01_03.wav,03_03_01_01_03.wav,Speaker3
+painful,2,This place is on fire. Please send help.,4,female,natural,3,data/raw/CUSTOM_DATASET/Speaker3/03_04_01_01_03.wav,03_04_01_01_03.wav,Speaker3
+stressful,3,We need an ambulance as soon as possible.,1,female,natural,3,data/raw/CUSTOM_DATASET/Speaker3/04_01_01_01_03.wav,04_01_01_01_03.wav,Speaker3
+stressful,3,Someone has been lying dead on the street.,2,female,natural,3,data/raw/CUSTOM_DATASET/Speaker3/04_02_01_01_03.wav,04_02_01_01_03.wav,Speaker3
+stressful,3,A neighbor of mine is shot dead.,3,female,natural,3,data/raw/CUSTOM_DATASET/Speaker3/04_03_01_01_03.wav,04_03_01_01_03.wav,Speaker3
+stressful,3,This place is on fire. Please send help.,4,female,natural,3,data/raw/CUSTOM_DATASET/Speaker3/04_04_01_01_03.wav,04_04_01_01_03.wav,Speaker3
+angry,0,We need an ambulance as soon as possible.,1,female,natural,4,data/raw/CUSTOM_DATASET/Speaker4/01_01_01_01_04.wav,01_01_01_01_04.wav,Speaker4
+angry,0,Someone has been lying dead on the street.,2,female,natural,4,data/raw/CUSTOM_DATASET/Speaker4/01_02_01_01_04.wav,01_02_01_01_04.wav,Speaker4
+angry,0,A neighbor of mine is shot dead.,3,female,natural,4,data/raw/CUSTOM_DATASET/Speaker4/01_03_01_01_04.wav,01_03_01_01_04.wav,Speaker4
+angry,0,This place is on fire. Please send help.,4,female,natural,4,data/raw/CUSTOM_DATASET/Speaker4/01_04_01_01_04.wav,01_04_01_01_04.wav,Speaker4
+drunk,1,We need an ambulance as soon as possible.,1,female,natural,4,data/raw/CUSTOM_DATASET/Speaker4/02_01_01_01_04.wav,02_01_01_01_04.wav,Speaker4
+drunk,1,Someone has been lying dead on the street.,2,female,natural,4,data/raw/CUSTOM_DATASET/Speaker4/02_02_01_01_04.wav,02_02_01_01_04.wav,Speaker4
+drunk,1,A neighbor of mine is shot dead.,3,female,natural,4,data/raw/CUSTOM_DATASET/Speaker4/02_03_01_01_04.wav,02_03_01_01_04.wav,Speaker4
+drunk,1,This place is on fire. Please send help.,4,female,natural,4,data/raw/CUSTOM_DATASET/Speaker4/02_04_01_01_04.wav,02_04_01_01_04.wav,Speaker4
+painful,2,We need an ambulance as soon as possible.,1,female,natural,4,data/raw/CUSTOM_DATASET/Speaker4/03_01_01_01_04.wav,03_01_01_01_04.wav,Speaker4
+painful,2,Someone has been lying dead on the street.,2,female,natural,4,data/raw/CUSTOM_DATASET/Speaker4/03_02_01_01_04.wav,03_02_01_01_04.wav,Speaker4
+painful,2,A neighbor of mine is shot dead.,3,female,natural,4,data/raw/CUSTOM_DATASET/Speaker4/03_03_01_01_04.wav,03_03_01_01_04.wav,Speaker4
+painful,2,This place is on fire. Please send help.,4,female,natural,4,data/raw/CUSTOM_DATASET/Speaker4/03_04_01_01_04.wav,03_04_01_01_04.wav,Speaker4
+stressful,3,We need an ambulance as soon as possible.,1,female,natural,4,data/raw/CUSTOM_DATASET/Speaker4/04_01_01_01_04.wav,04_01_01_01_04.wav,Speaker4
+stressful,3,Someone has been lying dead on the street.,2,female,natural,4,data/raw/CUSTOM_DATASET/Speaker4/04_02_01_01_04.wav,04_02_01_01_04.wav,Speaker4
+stressful,3,A neighbor of mine is shot dead.,3,female,natural,4,data/raw/CUSTOM_DATASET/Speaker4/04_03_01_01_04.wav,04_03_01_01_04.wav,Speaker4
+stressful,3,This place is on fire. Please send help.,4,female,natural,4,data/raw/CUSTOM_DATASET/Speaker4/04_04_01_01_04.wav,04_04_01_01_04.wav,Speaker4
+angry,0,We need an ambulance as soon as possible.,1,female,natural,5,data/raw/CUSTOM_DATASET/Speaker5/01_01_01_01_05.wav,01_01_01_01_05.wav,Speaker5
+angry,0,Someone has been lying dead on the street.,2,female,natural,5,data/raw/CUSTOM_DATASET/Speaker5/01_02_01_01_05.wav,01_02_01_01_05.wav,Speaker5
+angry,0,A neighbor of mine is shot dead.,3,female,natural,5,data/raw/CUSTOM_DATASET/Speaker5/01_03_01_01_05.wav,01_03_01_01_05.wav,Speaker5
+angry,0,This place is on fire. Please send help.,4,female,natural,5,data/raw/CUSTOM_DATASET/Speaker5/01_04_01_01_05.wav,01_04_01_01_05.wav,Speaker5
+drunk,1,We need an ambulance as soon as possible.,1,female,natural,5,data/raw/CUSTOM_DATASET/Speaker5/02_01_01_01_05.wav,02_01_01_01_05.wav,Speaker5
+drunk,1,Someone has been lying dead on the street.,2,female,natural,5,data/raw/CUSTOM_DATASET/Speaker5/02_02_01_01_05.wav,02_02_01_01_05.wav,Speaker5
+drunk,1,A neighbor of mine is shot dead.,3,female,natural,5,data/raw/CUSTOM_DATASET/Speaker5/02_03_01_01_05.wav,02_03_01_01_05.wav,Speaker5
+drunk,1,This place is on fire. Please send help.,4,female,natural,5,data/raw/CUSTOM_DATASET/Speaker5/02_04_01_01_05.wav,02_04_01_01_05.wav,Speaker5
+painful,2,We need an ambulance as soon as possible.,1,female,natural,5,data/raw/CUSTOM_DATASET/Speaker5/03_01_01_01_05.wav,03_01_01_01_05.wav,Speaker5
+painful,2,Someone has been lying dead on the street.,2,female,natural,5,data/raw/CUSTOM_DATASET/Speaker5/03_02_01_01_05.wav,03_02_01_01_05.wav,Speaker5
+painful,2,A neighbor of mine is shot dead.,3,female,natural,5,data/raw/CUSTOM_DATASET/Speaker5/03_03_01_01_05.wav,03_03_01_01_05.wav,Speaker5
+painful,2,This place is on fire. Please send help.,4,female,natural,5,data/raw/CUSTOM_DATASET/Speaker5/03_04_01_01_05.wav,03_04_01_01_05.wav,Speaker5
+stressful,3,We need an ambulance as soon as possible.,1,female,natural,5,data/raw/CUSTOM_DATASET/Speaker5/04_01_01_01_05.wav,04_01_01_01_05.wav,Speaker5
+stressful,3,Someone has been lying dead on the street.,2,female,natural,5,data/raw/CUSTOM_DATASET/Speaker5/04_02_01_01_05.wav,04_02_01_01_05.wav,Speaker5
+stressful,3,A neighbor of mine is shot dead.,3,female,natural,5,data/raw/CUSTOM_DATASET/Speaker5/04_03_01_01_05.wav,04_03_01_01_05.wav,Speaker5
+stressful,3,This place is on fire. Please send help.,4,female,natural,5,data/raw/CUSTOM_DATASET/Speaker5/04_04_01_01_05.wav,04_04_01_01_05.wav,Speaker5
+angry,0,We need an ambulance as soon as possible.,1,female,natural,6,data/raw/CUSTOM_DATASET/Speaker6/01_01_01_01_06.wav,01_01_01_01_06.wav,Speaker6
+angry,0,Someone has been lying dead on the street.,2,female,natural,6,data/raw/CUSTOM_DATASET/Speaker6/01_02_01_01_06.wav,01_02_01_01_06.wav,Speaker6
+angry,0,A neighbor of mine is shot dead.,3,female,natural,6,data/raw/CUSTOM_DATASET/Speaker6/01_03_01_01_06.wav,01_03_01_01_06.wav,Speaker6
+angry,0,This place is on fire. Please send help.,4,female,natural,6,data/raw/CUSTOM_DATASET/Speaker6/01_04_01_01_06.wav,01_04_01_01_06.wav,Speaker6
+drunk,1,We need an ambulance as soon as possible.,1,female,natural,6,data/raw/CUSTOM_DATASET/Speaker6/02_01_01_01_06.wav,02_01_01_01_06.wav,Speaker6
+drunk,1,Someone has been lying dead on the street.,2,female,natural,6,data/raw/CUSTOM_DATASET/Speaker6/02_02_01_01_06.wav,02_02_01_01_06.wav,Speaker6
+drunk,1,A neighbor of mine is shot dead.,3,female,natural,6,data/raw/CUSTOM_DATASET/Speaker6/02_03_01_01_06.wav,02_03_01_01_06.wav,Speaker6
+drunk,1,This place is on fire. Please send help.,4,female,natural,6,data/raw/CUSTOM_DATASET/Speaker6/02_04_01_01_06.wav,02_04_01_01_06.wav,Speaker6
+painful,2,We need an ambulance as soon as possible.,1,female,natural,6,data/raw/CUSTOM_DATASET/Speaker6/03_01_01_01_06.wav,03_01_01_01_06.wav,Speaker6
+painful,2,Someone has been lying dead on the street.,2,female,natural,6,data/raw/CUSTOM_DATASET/Speaker6/03_02_01_01_06.wav,03_02_01_01_06.wav,Speaker6
+painful,2,A neighbor of mine is shot dead.,3,female,natural,6,data/raw/CUSTOM_DATASET/Speaker6/03_03_01_01_06.wav,03_03_01_01_06.wav,Speaker6
+painful,2,This place is on fire. Please send help.,4,female,natural,6,data/raw/CUSTOM_DATASET/Speaker6/03_04_01_01_06.wav,03_04_01_01_06.wav,Speaker6
+stressful,3,We need an ambulance as soon as possible.,1,female,natural,6,data/raw/CUSTOM_DATASET/Speaker6/04_01_01_01_06.wav,04_01_01_01_06.wav,Speaker6
+stressful,3,Someone has been lying dead on the street.,2,female,natural,6,data/raw/CUSTOM_DATASET/Speaker6/04_02_01_01_06.wav,04_02_01_01_06.wav,Speaker6
+stressful,3,A neighbor of mine is shot dead.,3,female,natural,6,data/raw/CUSTOM_DATASET/Speaker6/04_03_01_01_06.wav,04_03_01_01_06.wav,Speaker6
+stressful,3,This place is on fire. Please send help.,4,female,natural,6,data/raw/CUSTOM_DATASET/Speaker6/04_04_01_01_06.wav,04_04_01_01_06.wav,Speaker6
+angry,0,We need an ambulance as soon as possible.,1,male,natural,7,data/raw/CUSTOM_DATASET/Speaker7/01_01_02_01_07.wav,01_01_02_01_07.wav,Speaker7
+angry,0,Someone has been lying dead on the street.,2,male,natural,7,data/raw/CUSTOM_DATASET/Speaker7/01_02_02_01_07.wav,01_02_02_01_07.wav,Speaker7
+angry,0,A neighbor of mine is shot dead.,3,male,natural,7,data/raw/CUSTOM_DATASET/Speaker7/01_03_02_01_07.wav,01_03_02_01_07.wav,Speaker7
+angry,0,This place is on fire. Please send help.,4,male,natural,7,data/raw/CUSTOM_DATASET/Speaker7/01_04_02_01_07.wav,01_04_02_01_07.wav,Speaker7
+drunk,1,We need an ambulance as soon as possible.,1,male,natural,7,data/raw/CUSTOM_DATASET/Speaker7/02_01_02_01_07.wav,02_01_02_01_07.wav,Speaker7
+drunk,1,Someone has been lying dead on the street.,2,male,natural,7,data/raw/CUSTOM_DATASET/Speaker7/02_02_02_01_07.wav,02_02_02_01_07.wav,Speaker7
+drunk,1,A neighbor of mine is shot dead.,3,male,natural,7,data/raw/CUSTOM_DATASET/Speaker7/02_03_02_01_07.wav,02_03_02_01_07.wav,Speaker7
+drunk,1,This place is on fire. Please send help.,4,male,natural,7,data/raw/CUSTOM_DATASET/Speaker7/02_04_02_01_07.wav,02_04_02_01_07.wav,Speaker7
+painful,2,We need an ambulance as soon as possible.,1,male,natural,7,data/raw/CUSTOM_DATASET/Speaker7/03_01_02_01_07.wav,03_01_02_01_07.wav,Speaker7
+painful,2,Someone has been lying dead on the street.,2,male,natural,7,data/raw/CUSTOM_DATASET/Speaker7/03_02_02_01_07.wav,03_02_02_01_07.wav,Speaker7
+painful,2,A neighbor of mine is shot dead.,3,male,natural,7,data/raw/CUSTOM_DATASET/Speaker7/03_03_02_01_07.wav,03_03_02_01_07.wav,Speaker7
+painful,2,This place is on fire. Please send help.,4,male,natural,7,data/raw/CUSTOM_DATASET/Speaker7/03_04_02_01_07.wav,03_04_02_01_07.wav,Speaker7
+stressful,3,We need an ambulance as soon as possible.,1,male,natural,7,data/raw/CUSTOM_DATASET/Speaker7/04_01_02_01_07.wav,04_01_02_01_07.wav,Speaker7
+stressful,3,Someone has been lying dead on the street.,2,male,natural,7,data/raw/CUSTOM_DATASET/Speaker7/04_02_02_01_07.wav,04_02_02_01_07.wav,Speaker7
+stressful,3,A neighbor of mine is shot dead.,3,male,natural,7,data/raw/CUSTOM_DATASET/Speaker7/04_03_02_01_07.wav,04_03_02_01_07.wav,Speaker7
+stressful,3,This place is on fire. Please send help.,4,male,natural,7,data/raw/CUSTOM_DATASET/Speaker7/04_04_02_01_07.wav,04_04_02_01_07.wav,Speaker7
+angry,0,We need an ambulance as soon as possible.,1,male,natural,8,data/raw/CUSTOM_DATASET/Speaker8/01_01_02_01_08.wav,01_01_02_01_08.wav,Speaker8
+angry,0,Someone has been lying dead on the street.,2,male,natural,8,data/raw/CUSTOM_DATASET/Speaker8/01_02_02_01_08.wav,01_02_02_01_08.wav,Speaker8
+angry,0,A neighbor of mine is shot dead.,3,male,natural,8,data/raw/CUSTOM_DATASET/Speaker8/01_03_02_01_08.wav,01_03_02_01_08.wav,Speaker8
+angry,0,This place is on fire. Please send help.,4,male,natural,8,data/raw/CUSTOM_DATASET/Speaker8/01_04_02_01_08.wav,01_04_02_01_08.wav,Speaker8
+drunk,1,We need an ambulance as soon as possible.,1,male,natural,8,data/raw/CUSTOM_DATASET/Speaker8/02_01_02_01_08.wav,02_01_02_01_08.wav,Speaker8
+drunk,1,Someone has been lying dead on the street.,2,male,natural,8,data/raw/CUSTOM_DATASET/Speaker8/02_02_02_01_08.wav,02_02_02_01_08.wav,Speaker8
+drunk,1,A neighbor of mine is shot dead.,3,male,natural,8,data/raw/CUSTOM_DATASET/Speaker8/02_03_02_01_08.wav,02_03_02_01_08.wav,Speaker8
+drunk,1,This place is on fire. Please send help.,4,male,natural,8,data/raw/CUSTOM_DATASET/Speaker8/02_04_02_01_08.wav,02_04_02_01_08.wav,Speaker8
+painful,2,We need an ambulance as soon as possible.,1,male,natural,8,data/raw/CUSTOM_DATASET/Speaker8/03_01_02_01_08.wav,03_01_02_01_08.wav,Speaker8
+painful,2,Someone has been lying dead on the street.,2,male,natural,8,data/raw/CUSTOM_DATASET/Speaker8/03_02_02_01_08.wav,03_02_02_01_08.wav,Speaker8
+painful,2,A neighbor of mine is shot dead.,3,male,natural,8,data/raw/CUSTOM_DATASET/Speaker8/03_03_02_01_08.wav,03_03_02_01_08.wav,Speaker8
+painful,2,This place is on fire. Please send help.,4,male,natural,8,data/raw/CUSTOM_DATASET/Speaker8/03_04_02_01_08.wav,03_04_02_01_08.wav,Speaker8
+stressful,3,We need an ambulance as soon as possible.,1,male,natural,8,data/raw/CUSTOM_DATASET/Speaker8/04_01_02_01_08.wav,04_01_02_01_08.wav,Speaker8
+stressful,3,Someone has been lying dead on the street.,2,male,natural,8,data/raw/CUSTOM_DATASET/Speaker8/04_02_02_01_08.wav,04_02_02_01_08.wav,Speaker8
+stressful,3,A neighbor of mine is shot dead.,3,male,natural,8,data/raw/CUSTOM_DATASET/Speaker8/04_03_02_01_08.wav,04_03_02_01_08.wav,Speaker8
+stressful,3,This place is on fire. Please send help.,4,male,natural,8,data/raw/CUSTOM_DATASET/Speaker8/04_04_02_01_08.wav,04_04_02_01_08.wav,Speaker8
+angry,0,We need an ambulance as soon as possible.,1,unknown,synthetic,9,data/raw/CUSTOM_DATASET/Speaker9/01_01_00_02_09.wav,01_01_00_02_09.wav,Speaker9
+angry,0,We need an ambulance as soon as possible.,1,male,natural,9,data/raw/CUSTOM_DATASET/Speaker9/01_01_02_01_09.wav,01_01_02_01_09.wav,Speaker9
+angry,0,Someone has been lying dead on the street.,2,unknown,synthetic,9,data/raw/CUSTOM_DATASET/Speaker9/01_02_00_02_09.wav,01_02_00_02_09.wav,Speaker9
+angry,0,Someone has been lying dead on the street.,2,male,natural,9,data/raw/CUSTOM_DATASET/Speaker9/01_02_02_01_09.wav,01_02_02_01_09.wav,Speaker9
+angry,0,A neighbor of mine is shot dead.,3,unknown,synthetic,9,data/raw/CUSTOM_DATASET/Speaker9/01_03_00_02_09.wav,01_03_00_02_09.wav,Speaker9
+angry,0,A neighbor of mine is shot dead.,3,male,natural,9,data/raw/CUSTOM_DATASET/Speaker9/01_03_02_01_09.wav,01_03_02_01_09.wav,Speaker9
+angry,0,This place is on fire. Please send help.,4,unknown,synthetic,9,data/raw/CUSTOM_DATASET/Speaker9/01_04_00_02_09.wav,01_04_00_02_09.wav,Speaker9
+angry,0,This place is on fire. Please send help.,4,male,natural,9,data/raw/CUSTOM_DATASET/Speaker9/01_04_02_01_09.wav,01_04_02_01_09.wav,Speaker9
+painful,2,We need an ambulance as soon as possible.,1,unknown,synthetic,9,data/raw/CUSTOM_DATASET/Speaker9/03_01_00_02_09.wav,03_01_00_02_09.wav,Speaker9
+painful,2,We need an ambulance as soon as possible.,1,male,natural,9,data/raw/CUSTOM_DATASET/Speaker9/03_01_02_01_09.wav,03_01_02_01_09.wav,Speaker9
+painful,2,Someone has been lying dead on the street.,2,unknown,synthetic,9,data/raw/CUSTOM_DATASET/Speaker9/03_02_00_02_09.wav,03_02_00_02_09.wav,Speaker9
+painful,2,Someone has been lying dead on the street.,2,male,natural,9,data/raw/CUSTOM_DATASET/Speaker9/03_02_02_01_09.wav,03_02_02_01_09.wav,Speaker9
+painful,2,A neighbor of mine is shot dead.,3,unknown,synthetic,9,data/raw/CUSTOM_DATASET/Speaker9/03_03_00_02_09.wav,03_03_00_02_09.wav,Speaker9
+painful,2,A neighbor of mine is shot dead.,3,male,natural,9,data/raw/CUSTOM_DATASET/Speaker9/03_03_02_01_09.wav,03_03_02_01_09.wav,Speaker9
+painful,2,This place is on fire. Please send help.,4,unknown,synthetic,9,data/raw/CUSTOM_DATASET/Speaker9/03_04_00_02_09.wav,03_04_00_02_09.wav,Speaker9
+painful,2,This place is on fire. Please send help.,4,male,natural,9,data/raw/CUSTOM_DATASET/Speaker9/03_04_02_01_09.wav,03_04_02_01_09.wav,Speaker9
+stressful,3,We need an ambulance as soon as possible.,1,unknown,synthetic,9,data/raw/CUSTOM_DATASET/Speaker9/04_01_00_02_09.wav,04_01_00_02_09.wav,Speaker9
+stressful,3,We need an ambulance as soon as possible.,1,male,natural,9,data/raw/CUSTOM_DATASET/Speaker9/04_01_02_01_09.wav,04_01_02_01_09.wav,Speaker9
+stressful,3,Someone has been lying dead on the street.,2,unknown,synthetic,9,data/raw/CUSTOM_DATASET/Speaker9/04_02_00_02_09.wav,04_02_00_02_09.wav,Speaker9
+stressful,3,Someone has been lying dead on the street.,2,male,natural,9,data/raw/CUSTOM_DATASET/Speaker9/04_02_02_01_09.wav,04_02_02_01_09.wav,Speaker9
+stressful,3,A neighbor of mine is shot dead.,3,unknown,synthetic,9,data/raw/CUSTOM_DATASET/Speaker9/04_03_00_02_09.wav,04_03_00_02_09.wav,Speaker9
+stressful,3,A neighbor of mine is shot dead.,3,male,natural,9,data/raw/CUSTOM_DATASET/Speaker9/04_03_02_01_09.wav,04_03_02_01_09.wav,Speaker9
+stressful,3,This place is on fire. Please send help.,4,unknown,synthetic,9,data/raw/CUSTOM_DATASET/Speaker9/04_04_00_02_09.wav,04_04_00_02_09.wav,Speaker9
+stressful,3,This place is on fire. Please send help.,4,male,natural,9,data/raw/CUSTOM_DATASET/Speaker9/04_04_02_01_09.wav,04_04_02_01_09.wav,Speaker9

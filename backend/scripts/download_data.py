@@ -1,15 +1,17 @@
 """
-Download and prepare the Speech Emotion Recognition for Emergency Calls dataset.
+Prepare the Speech Emotion Recognition for Emergency Calls dataset.
 
-Usage:
-    python scripts/download_data.py                  # Download + generate metadata
-    python scripts/download_data.py --skip-download   # Only generate metadata (if already downloaded)
+Dataset: https://www.kaggle.com/datasets/anuvagoyal/speech-emotion-recognition-for-emergency-calls
+
+Setup:
+    1. Download from Kaggle and extract CUSTOM_DATASET/ into backend/data/raw/
+    2. Run: python scripts/download_data.py
+
+This script parses WAV filenames and generates data/metadata.csv.
 """
 
 import os
 import sys
-import argparse
-import zipfile
 import glob
 import pandas as pd
 
@@ -18,8 +20,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW_DIR = os.path.join(BASE_DIR, "data", "raw")
 DATASET_DIR = os.path.join(RAW_DIR, "CUSTOM_DATASET")
 METADATA_PATH = os.path.join(BASE_DIR, "data", "metadata.csv")
-
-KAGGLE_DATASET = "anuvagoyal/speech-emotion-recognition-for-emergency-calls"
 
 EMOTION_MAP = {
     "01": "angry",
@@ -46,44 +46,9 @@ TYPE_MAP = {
 }
 
 
-def download_dataset():
-    """Download the dataset using the Kaggle CLI."""
-    os.makedirs(RAW_DIR, exist_ok=True)
-
-    try:
-        import kaggle
-        print(f"Downloading dataset: {KAGGLE_DATASET}")
-        kaggle.api.dataset_download_files(
-            KAGGLE_DATASET,
-            path=RAW_DIR,
-            unzip=True,
-        )
-        print(f"Dataset downloaded to {RAW_DIR}")
-    except ImportError:
-        print("Kaggle package not installed. Trying CLI...")
-        exit_code = os.system(
-            f'kaggle datasets download -d {KAGGLE_DATASET} -p "{RAW_DIR}" --unzip'
-        )
-        if exit_code != 0:
-            print(
-                "\nFailed to download. Please download manually from:\n"
-                "https://www.kaggle.com/datasets/anuvagoyal/speech-emotion-recognition-for-emergency-calls\n"
-                f"Extract to: {DATASET_DIR}"
-            )
-            sys.exit(1)
-    except Exception as e:
-        print(f"Download failed: {e}")
-        print(
-            "\nPlease download manually from:\n"
-            "https://www.kaggle.com/datasets/anuvagoyal/speech-emotion-recognition-for-emergency-calls\n"
-            f"Extract to: {DATASET_DIR}"
-        )
-        sys.exit(1)
-
-
 def parse_filename(filename):
     """
-    Parse the WAV filename to extract metadata.
+    Parse WAV filename to extract metadata.
 
     Format: EmotionNum_SentenceNum_Gender_SyntheticNatural_SpeakerNum
     Example: 01_02_01_01_05.wav -> angry, sentence 2, female, natural, speaker 5
@@ -94,20 +59,14 @@ def parse_filename(filename):
     if len(parts) < 5:
         return None
 
-    emotion_code = parts[0]
-    sentence_code = parts[1]
-    gender_code = parts[2]
-    type_code = parts[3]
-    speaker_num = parts[4]
-
     return {
-        "emotion": EMOTION_MAP.get(emotion_code, "unknown"),
-        "emotion_code": int(emotion_code) - 1,  # 0-indexed for model labels
-        "sentence": SENTENCE_MAP.get(sentence_code, "unknown"),
-        "sentence_code": int(sentence_code),
-        "gender": GENDER_MAP.get(gender_code, "unknown"),
-        "type": TYPE_MAP.get(type_code, "unknown"),
-        "speaker": int(speaker_num),
+        "emotion": EMOTION_MAP.get(parts[0], "unknown"),
+        "emotion_code": int(parts[0]) - 1,
+        "sentence": SENTENCE_MAP.get(parts[1], "unknown"),
+        "sentence_code": int(parts[1]),
+        "gender": GENDER_MAP.get(parts[2], "unknown"),
+        "type": TYPE_MAP.get(parts[3], "unknown"),
+        "speaker": int(parts[4]),
     }
 
 
@@ -115,7 +74,7 @@ def generate_metadata():
     """Scan all WAV files and generate metadata CSV."""
     if not os.path.exists(DATASET_DIR):
         print(f"Dataset directory not found: {DATASET_DIR}")
-        print("Please download the dataset first (run without --skip-download)")
+        print(f"Please download from Kaggle and extract to: {DATASET_DIR}")
         sys.exit(1)
 
     records = []
@@ -135,7 +94,6 @@ def generate_metadata():
             print(f"  Skipping (unrecognized format): {filename}")
             continue
 
-        # Store path relative to backend/
         rel_path = os.path.relpath(wav_path, BASE_DIR)
         metadata["filepath"] = rel_path
         metadata["filename"] = filename
@@ -157,23 +115,6 @@ def generate_metadata():
     return df
 
 
-def main():
-    parser = argparse.ArgumentParser(
-        description="Download and prepare the Emergency Call Emotion dataset"
-    )
-    parser.add_argument(
-        "--skip-download",
-        action="store_true",
-        help="Skip downloading, only generate metadata CSV",
-    )
-    args = parser.parse_args()
-
-    if not args.skip_download:
-        download_dataset()
-
+if __name__ == "__main__":
     generate_metadata()
     print("\nDone! You can now run preprocessing.")
-
-
-if __name__ == "__main__":
-    main()
