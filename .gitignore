@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+venv/
+.env
+
+# Data (too large for git)
+backend/data/raw/
+backend/data/train/*.npy
+backend/data/test/*.npy
+backend/data/uploads/
+backend/data/metadata.csv
+*.wav
+
+# Models (committed separately after training)
+# backend/models/*.h5
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Locust results
+backend/locust/results/
+
+# Temp
+uploads/
+tmp/

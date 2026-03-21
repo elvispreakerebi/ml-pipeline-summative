@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: emotion-api
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    plan: free
+    envVars:
+      - key: MODEL_PATH
+        value: /app/models/emotion_classifier.h5
+      - key: PORT
+        value: "8000"
+
+  - type: web
+    name: emotion-frontend
+    runtime: docker
+    dockerfilePath: ./frontend/Dockerfile
+    plan: free
+    envVars:
+      - key: NEXT_PUBLIC_API_URL
+        value: https://emotion-api.onrender.com
