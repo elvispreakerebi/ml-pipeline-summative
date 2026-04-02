@@ -4,7 +4,7 @@ An end-to-end ML pipeline that classifies emotions in emergency call audio recor
 
 ## Links
 
-- **Video Demo:** [Watch on YouTube](https://youtu.be/uigCoNhKF-A)
+- **Video Demo:** [Watch on YouTube](https://youtu.be/uUeeqRAQF-Y)
 - **Live API:** [https://emotion-api-1341.onrender.com](https://emotion-api-1341.onrender.com)
 - **Live Frontend:** [https://emocall.vercel.app](https://emocall.vercel.app)
 
